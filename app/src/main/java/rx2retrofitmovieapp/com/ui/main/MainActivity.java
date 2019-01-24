@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements MainViewInterface
     public boolean onOptionsItemSelected(MenuItem item) {
 
         switch(item.getItemId()){
-            case R.id.action_search:{
+            case R.id.search:{
 
                     showToast("Search Clicked");
                     Intent i = new Intent(MainActivity.this, SearchActivity.class);
